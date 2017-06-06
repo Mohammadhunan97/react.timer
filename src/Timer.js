@@ -7,7 +7,7 @@ class Timer extends Component {
     this.state = {
       clock: 0
     };
-    this.ticker = this.ticker.bind(this); //when you can't use onclick binding
+    this.ticker = this.ticker.bind(this); //when you can't use onclick binding used in the constructor
   }
   ticker(){
     console.log(this.props.start)
