@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.time{
+  border-radius: 30px;
+  background: green;
+  border: 2px solid green;
+  display: inline;
+  padding: 15px;
+  color: white;
+}
